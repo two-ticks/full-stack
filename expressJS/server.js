@@ -1,0 +1,16 @@
+const express = require('express')
+const app = express()
+
+app.get('/',(req, res) => {
+    res.send('<h1 style="color: red;">Hello World</h1>')
+})
+
+app.get('/greet',(req, res) => {
+    console.log(req.url)
+    console.log(req.headers)
+    res.send('Good Morning')
+})
+
+app.listen(4444, () => {
+    console.log('server started on http://localhost:4444')
+}) //starts server at network //port, 0 - 1024 ports are reserved
