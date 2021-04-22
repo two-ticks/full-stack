@@ -1,3 +1,4 @@
+```js
 const express = require('express')
 const app = express()
 
@@ -17,3 +18,6 @@ app.get('/greet',(req, res) => {
 app.listen(4444, () => {
     console.log('server started on http://localhost:4444')
 }) //starts server at network //port, 0 - 1024 ports are reserved
+```
+
+http://localhost:4444/greet?person=Aditya 

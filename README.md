@@ -1,1 +1,1 @@
-<kbd>Ctrl</kbd> + <kbd>C</kbd>  -> Close server
+<kbd>Ctrl</kbd> + <kbd>C</kbd>  Close server
