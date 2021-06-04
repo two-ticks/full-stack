@@ -1,0 +1,33 @@
+body {
+  margin: 20px;
+  font-family: 'Lato';
+  font-weight: 300;
+  font-size: 1.2em;
+}
+
+#anime-demo {
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: rotate(180deg);
+}
+
+svg {
+   padding: 10px;
+}
+
+button {
+  background: orange;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 4px;
+  font-family: 'Lato';
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background: blue;
+}
